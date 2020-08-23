@@ -46,5 +46,39 @@ Here I have created a infrastructure in **HCL (Hashicorp Configuration Language)
 ![](images/routetableig.png)
 
 * Create a routing table stating the route to NAT Gateway for the VPC.
-![](images/routetablenatg.png)
+![](images/routetablenat.png)
 
+* Associate the route table to the Public Subnet and Private Subnet respectively.                                            
+![](images/routeass.png)
+
+* Create a Key to log in to the EC2 instance or to connect to it via SSH to run commands.
+![](images/key.png)
+
+* Save the key locally for the further use.                                               
+![](images/keys.png)
+
+* Create a security group for the WordPress instance, and provide inbound and outbound rules.
+![](images/sgw.png)
+
+* Create a security group for the Bastion Host instance, and provide inbound and outbound rules.
+![](images/sgbh.png)
+
+* Create a security group for the MySQL instance, and provide inbound and outbound rules.
+![](images/sgs.png)
+
+* Create an AWS instance, using WordPress AMI provided by Bitnami.                                   
+![](images/wpinstance.png)
+
+* Create an AWS instance, using Amazon Linux 2 AMI (HVM) which already have MySQL installed.
+![](images/sqlinstance.png)
+
+* Create an AWS instance, using Amazon Linux 2 AMI (HVM) as the Bastion Host.
+![](images/bhinstance.png)
+
+* Launch the webpage on the CHROME using WordPress Instance Public_IP.              
+![](images/chrome.png)
+
+### For reference<br/>
+[`Infrastructure.tf`](https://github.com/Sparsh-Agrawal/Terraform-AWS-4/blob/master/infra.tf)
+
+[`LinkedIn`]()
