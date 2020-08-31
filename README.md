@@ -81,4 +81,4 @@ Here I have created a infrastructure in **HCL (Hashicorp Configuration Language)
 ### For reference<br/>
 [`Infrastructure.tf`](https://github.com/Sparsh-Agrawal/Terraform-AWS-4/blob/master/infra.tf)
 
-[`LinkedIn`]()
+[`LinkedIn`](https://www.linkedin.com/pulse/aws-infrastructure-using-terraform-iv-sparsh-agrawal)
